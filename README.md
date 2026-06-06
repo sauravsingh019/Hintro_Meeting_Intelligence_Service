@@ -47,7 +47,9 @@ Default server URL: `http://localhost:3000`
 
 ## Authentication
 
-Login with the seeded admin user:
+Login with the configured admin credentials:
+- **Local Dev Default**: Email: `admin@example.com`, Password: `change-me`
+- **Live Deployment**: Email: `<ADMIN_EMAIL from environment variables>` (e.g., your email `skbhadana019@gmail.com`), Password: `<ADMIN_PASSWORD from environment variables>`
 
 ```bash
 POST /api/auth/login
@@ -58,6 +60,7 @@ Content-Type: application/json
   "password": "change-me"
 }
 ```
+
 
 Use the returned token as:
 
