@@ -1,0 +1,11 @@
+{
+  "name": "hintro-meeting-intelligence-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Meeting intelligence backend for the Hintro assignment",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
